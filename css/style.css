@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Oswald:wght@200;500&family=Poppins:ital,wght@0,400;0,700;0,800;1,600&family=Sansita+Swashed&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 1% 5%;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/13.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-position: auto;
+  background-repeat: no-repeat;
+  min-height: 120vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-title {
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: white;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style-type: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  padding: 2.5rem;
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  cursor: pointer;
+  overflow: hidden;
+  /* outline: none; */
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+hr {
+  border: 1px solid white;
+  margin-left: 310px;
+  margin-top: -15px;
+}
+.call {
+  margin-top: -10px;
+}
+.phone {
+  color: white;
+  position: absolute;
+  top: 50px;
+  right: 210px;
+}
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
+  margin-top: 100px;
+}
+/* .hero-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+} */
+.bulb-section {
+  position: absolute;
+  padding: 20px 25px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.19);
+  backdrop-filter: blur(0px);
+  left: 700px;
+  top: 420px;
+}
+p {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.btn1 {
+  padding: 1px 40px;
+  background-color: white;
+}
+.icon {
+  color: black;
+}
+
+.puzzle-section {
+  position: absolute;
+  padding: 20px 25px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.19);
+  backdrop-filter: blur(0px);
+  left: 60rem;
+  top: 150px;
+}
+.line {
+  position: relative;
+}
+.horizontal {
+  position: absolute;
+  color: white;
+}
+.circle {
+  color: white;
+  margin-left: 60rem;
+}
+.new1 {
+  width: 80px;
+  margin-left: 885px;
+  margin-bottom: -10px;
+}
+.vl {
+  border-left: 3px solid white;
+  height: 50px;
+  margin-left: 65.5em;
+  margin-top: -170px;
+}
+.circle2 {
+  color: white;
+  margin-left: 65rem;
+}
