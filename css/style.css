@@ -107,7 +107,7 @@ p {
 .puzzle-section {
   position: absolute;
   padding: 20px 25px;
-  width: 250px;
+  width: 280px;
   background: rgba(255, 255, 255, 0.19);
   backdrop-filter: blur(0px);
   left: 60rem;
